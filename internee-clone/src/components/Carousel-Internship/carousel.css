@@ -1,0 +1,141 @@
+
+.carousel {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #43a724;
+    border-radius: 10px;
+    box-shadow: 0 15px 15px -10px #fd7e14;
+
+    
+    padding: 40px 20px;
+    margin:  auto;
+    max-width: 85%;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  
+}
+
+.carousel-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+    color: white;
+}
+.carousel-text .firsttext{
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+.carousel-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1.2em;
+}
+
+.internships {
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.internship-card {
+    background: white;
+    color: rgb(80, 79, 79);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-left: 30px;
+    
+}
+
+.internship-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.internship-card h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+    margin: 20px 0px;
+}
+
+.internship-card p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    line-height: 160%;
+    font-weight: 250;
+   
+}
+
+.internship-card button {
+    background-color: #43a724;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.internship-card button:hover {
+    background-color: #43a724;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carousel-dots span {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #43a724;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.carousel-dots .active {
+    background-color: white;
+}
+
+.carousel-footer {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-footer p {
+    font-size: 25px;
+    color: white;
+}
+.carousel-footer span{
+    font-weight: bold;
+}

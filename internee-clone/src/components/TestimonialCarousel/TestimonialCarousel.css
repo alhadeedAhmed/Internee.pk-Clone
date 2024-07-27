@@ -1,0 +1,89 @@
+.testimonial-carousel {
+    padding-top: 45px;
+    margin: auto;
+    width: 86%;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+.testimonial-carousel h2 {
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.testimonial-container {
+    overflow: hidden; /* Hide the overflow */
+    width: 100%;
+}
+
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+    width: calc(100% + 1rem); /* Adjust to prevent overflow */
+    margin-left: -0.5rem; /* Compensate for margin of cards */
+}
+
+.testimonial-card {
+    background-color: #20232a;
+    color: #fff;
+    padding: 32px;
+    margin: 0 0.5rem;
+    flex: 1 0 32%; /* Each card takes up 32% of the width */
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-width: 300px; /* Set a minimum width for the cards */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-card p {
+    font-size: 19px;
+    line-height: 150%;
+    margin-bottom: auto;
+}
+
+.testimonial-author {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-card h4 {
+    margin: 0.5rem 0 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f0c674;
+}
+
+.testimonial-card h5 {
+    margin: 0.25rem 0 0;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.carousel-controls {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-button {
+    background-color: transparent;
+    border: none;
+    color: #20232a;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.carousel-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.carousel-button:hover:not(:disabled) {
+    color: #43a724;
+}

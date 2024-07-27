@@ -1,0 +1,40 @@
+.third-section{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.thirdimg img{
+    width: 78px;
+    height: auto;
+    border-radius: 30px;
+    padding: 8px 4px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.12);
+    overflow: visible;
+    margin-bottom: 25px;
+}
+.thirdcontent{
+    color:#21282E;
+}
+.thirdcontent h1{
+    font-size: 48px;
+    font-weight:bold;
+    color: black;
+    letter-spacing: -0.05em;
+    margin-bottom: 25px;
+}
+.thirdcontent p{
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    line-height: 180%;
+    color: rgb(74, 80, 86);
+    width: 68%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 250;
+}

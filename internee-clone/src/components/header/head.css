@@ -1,0 +1,42 @@
+.logo img{
+    width: 175px;
+    height: auto;
+    margin-right: 230px;
+}
+.flexSet{
+    display: flex;
+}
+.flexSet li a{
+    margin-left: 45px;
+    color: #21282E;
+    font-weight: bold;
+}
+.flexSet li a:hover{
+    color: #43a724;
+}
+.navbtn{
+    margin-left: 22px;
+    padding: 17px 26px;
+    border-radius: 50px;
+    border: none;
+    background-color:#43a724 ;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.navbtn:hover{
+    opacity: 0.8;
+}
+.nocolorbtn{
+    border: #43a724 2px solid;
+    background-color: white;
+    color: #43a724;
+}
+.nocolorbtn:hover{
+    background-color: #43a724;
+    color: white;
+    opacity: inherit;
+}
+

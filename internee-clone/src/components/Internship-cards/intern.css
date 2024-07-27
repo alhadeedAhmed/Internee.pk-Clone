@@ -1,0 +1,95 @@
+.container {
+  padding: 20px;
+}
+
+.internship-Text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.intern-text {
+  max-width: 60%;
+  font-size: 19px;
+  color: #606162;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 150%;
+}
+
+.intern-text span {
+  font-weight: bold;
+}
+
+.browsebtn button {
+  padding: 8px 12px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.browsebtn button:hover {
+  background-color: rgb(86, 86, 229);
+  color: white;
+  border-radius: 4px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin: 50px 90px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgba(82, 82, 82, 0.7);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.card h3 {
+  margin: 20px 0 10px;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 auto 20px;
+}
+
+.apply-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #218838;
+}

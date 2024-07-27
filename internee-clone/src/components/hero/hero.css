@@ -1,0 +1,80 @@
+.hero {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.herocontent h1 {
+    font-size: 54px;
+    font-weight: bolder;
+    color: #21282E;
+    letter-spacing: -0.05em;
+}
+.herocontent .animated-text {
+    color: #43a724;
+    letter-spacing: -0.05em;
+}
+.heroimage {
+    margin-right: 40px;
+}
+.heroimage img {
+    width: 660px;
+    height: auto;
+}
+.heropara {
+    color: #717275;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 250;
+    text-align: left;
+    line-height: 150%;
+    margin-top: 10px;
+}
+.companyimg {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.companyimg img {
+    width: 130px;
+    height: auto;
+}
+.herobtn {
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    gap: 30px;
+}
+.herobtn button {
+    padding: 18px 60px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.herobtn .jobbtn button {
+    border: #43a724 2px solid;
+    background-color: white;
+    color: #43a724;
+}
+.herobtn .lmsbtn button {
+    background: linear-gradient(86.52deg, #84f661 4.14%, #3dd442 98.51%);
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.herobtn .lmsbtn button:hover {
+    opacity: 0.8;
+}
+
+.hero-img-animated {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
