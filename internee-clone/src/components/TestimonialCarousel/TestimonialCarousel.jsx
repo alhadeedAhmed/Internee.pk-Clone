@@ -16,8 +16,8 @@ const testimonials = [
   {
     quote:
       "internee.pk is all about helping us grow our careers. May ALLAH give them more achivements and success on their journey.",
-    author: "Nagina Asif",
-    location: "Karachi, Pakistan",
+    author: "Hadeed Sudheer",
+    location: "Muridke, Pakistan",
   },
   {
     quote:
